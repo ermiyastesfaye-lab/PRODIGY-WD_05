@@ -1,0 +1,67 @@
+.currentInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.temp {
+  font-size: 4rem;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  font-size: 3rem;
+}
+
+.description {
+  font-size: 1.4rem;
+}
+
+.additionalInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleInfo {
+  background: linear-gradient(
+    135deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0)
+  );
+  padding: 0.7rem 2rem 2rem 0.7rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 10rem;
+  height: 6.3rem;
+}
+.infoIcon {
+  display: flex;
+  margin-bottom: 0.3rem;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.infoIcon p {
+  font-size: 0.6rem;
+}
+
+.singleInfo > p {
+  font-size: 2rem;
+}
+
+.unit {
+  font-size: 1rem;
+}
+
+h1 .unit {
+  font-size: 2rem;
+}

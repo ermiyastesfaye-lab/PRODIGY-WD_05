@@ -1,0 +1,43 @@
+.dailyInfoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.dailyInfo {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem 0rem;
+  overflow: scroll;
+}
+
+.dailyInfo::-webkit-scrollbar {
+  display: none;
+}
+
+.dailySingleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.dailySingleInfo:hover {
+  background: linear-gradient(
+    135deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0)
+  );
+}
+.dailySingleInfo img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.dailyMain {
+  width: 100%;
+  margin: 0 auto;
+}
